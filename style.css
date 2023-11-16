@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #545252;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    margin: 20px;
+}
+
+.resumo {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.resumo div {
+    text-align: center;
+}
+
+.novoItem {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.divDesc,
+.divValor,
+.divTipo {
+    margin-right: 20px;
+    flex: 1;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.divTabela {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.columnAcao {
+    text-align: center;
+}
